@@ -1,0 +1,143 @@
+@media (max-width: 1480px) {
+
+    .banner-img { left: 0px; }
+
+    .banner-img img { max-width: 80%; }
+}
+
+
+
+@media screen and (max-width: 991px) { 
+    
+    .section-gap { padding: 60px 0}
+    .about-content h1 ,
+    .banner-content h1 { font-size: 55px }
+    
+    .skill-title h2,
+    .section-title h2 ,
+    .contact-area .contact-title h2{ font-size: 33px; margin-bottom: 40px }
+    
+    .section-title h2:before,
+    .contact-area .contact-title h2:after { bottom: -20px; }
+
+    .section-title h2:after,
+    .contact-area .contact-title h2:before{ bottom: -16px }
+
+    .banner-img { display: none; }
+
+    .brand-wrap {
+        padding: 40px 0;
+        margin-top: -52px;
+    }
+    
+
+    .about-area .about-left { display: none; }
+
+    .about-area .primary-btn.white { margin-bottom: 0px; }
+
+    .skill-title { margin-bottom: 40px}
+
+    .work-area .filters { margin-top: 40px; }
+
+    .work-area .filters ul { text-align: left; }
+
+    .work-area .filters ul li:first-child { padding-left: 0; }
+    
+    .work-area .grid .single-work:nth-of-type(4) { margin-bottom: 30px}
+    
+    .job-box:nth-child(3)  .single-job { margin-bottom: 30px}
+    
+    .counter_item,
+    .single-service {
+        margin-bottom: 30px;
+        padding: 60px 30px; 
+    } 
+    
+    /***** Blog ****/
+    
+    .top-category-widget-area .single-cat-widget { margin-bottom: 50px; }
+    
+}
+/*============================================================
+        Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .mb-md-0 { margin-bottom: 0 !important}
+}
+
+
+
+@media (max-width: 769px) {
+
+    .home-banner-area .fullscreen { height: 600px !important; }
+}
+
+
+/*============================================================
+        Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+@media only screen and (max-width: 767px) {
+    
+    .about-content h1 ,
+    .banner-content h1 { font-size: 40px }
+    
+    .banner-content .designation { font-size: 25px}
+
+    .primary-btn { padding: 0 35px; }
+
+    .primary-btn:before,
+    .primary-btn span { padding: 8px 0; } 
+    
+    .work-area .grid .single-work:nth-of-type(5) { margin-bottom: 30px}
+
+    .testimonials_area .owl-controls {  display: none; } 
+
+    .testi_item { margin-bottom: 0; } 
+    
+    
+    /***** Delete last margin ****/
+    .service-box:last-child  .single-service,
+    .counter-box:last-child .counter_item {margin-bottom: 0}
+    
+    /***** Blog ****/
+    .about-content .box {  padding: 7px 15px; } 
+    
+     .post-content-area .single-post .meta-details { text-align: right; }
+
+
+}
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) { }
+
+@media only screen and (max-width: 576px) {
+
+
+    .single-job .top-sec {
+        -webkit-box-direction: normal;
+        -webkit-box-orient: vertical;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column; 
+    }
+
+    .single-job .bottom-sec { margin-top: 30px; }
+
+
+    .footer-area .footer-social a i { font-size: 25px; } 
+
+}
+
+@media only screen and (max-width: 380px) { 
+
+    /***** Blog ****/
+    .about-content .box a { font-size: 13px; } 
+    
+}
+
+@media only screen and (max-width: 479px) { }
+
+
